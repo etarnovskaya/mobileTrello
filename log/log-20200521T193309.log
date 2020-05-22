@@ -1,0 +1,5 @@
+19:33:09.813 [main] INFO  c.t.m.manager.ApplicationManager - Initialisation started
+19:34:06.114 [main] INFO  c.t.m.manager.ApplicationManager - Ready!
+19:34:11.191 [main] INFO  com.trello.mobile.tests.TestBase - Start test testLogin with parameters: []
+19:34:11.557 [main] INFO  com.trello.mobile.tests.TestBase - Stop test testLogin
+19:34:13.644 [main] INFO  c.t.m.manager.ApplicationManager - Test finished

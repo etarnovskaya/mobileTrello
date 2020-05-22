@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group 'Lena'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'io.appium:java-client:7.3.0'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+}
+test{
+    useTestNG()
+    if (project.hasProperty('target')){
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testRegression(type: Test){
+    useTestNG{
+        suites 'src/test/resources/testng.xml'
+    }
+        if (project.hasProperty('target')){
+        systemProperty 'target', "${target}"
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}

@@ -1,0 +1,4 @@
+19:20:34.199 [Test worker] INFO  c.t.m.manager.ApplicationManager - Initialisation started
+19:21:34.554 [Test worker] INFO  c.t.m.manager.ApplicationManager - Ready!
+19:21:39.673 [Test worker] INFO  com.trello.mobile.tests.TestBase - Start test testAppLaunched with parameters: []
+19:21:39.693 [Test worker] INFO  com.trello.mobile.tests.TestBase - Stop test testAppLaunched
