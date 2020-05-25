@@ -1,0 +1,4 @@
+20:43:55.473 [main] INFO  c.t.m.manager.ApplicationManager - Initialisation started
+20:44:52.269 [main] INFO  c.t.m.manager.ApplicationManager - Ready!
+20:44:57.436 [main] INFO  com.trello.mobile.tests.TestBase - Start test swipePageTests with parameters: []
+20:45:19.937 [main] INFO  com.trello.mobile.tests.TestBase - Stop test swipePageTests

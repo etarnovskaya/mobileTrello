@@ -20,6 +20,7 @@ public class ApplicationManager {
   //BoardHelper board;
   //TeamHelper team;
   SessionHelper session;
+  WelcomePage welcome;
   // ProfileHelper profile;
   String browser;
   Properties properties;
@@ -54,6 +55,7 @@ public class ApplicationManager {
     String target = System.getProperty("target", "local");
 //    properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
+    welcome = new WelcomePage(driver);
     session = new SessionHelper(driver);
 
 //    session.loginAtlasiianAcc(
@@ -74,7 +76,11 @@ public class ApplicationManager {
     return session;
   }
 
-//  public BoardHelper getBoard() {
+  public WelcomePage getWelcome() {
+    return welcome;
+  }
+
+  //  public BoardHelper getBoard() {
 //    return board;
 //  }
 //
