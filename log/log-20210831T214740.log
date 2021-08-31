@@ -1,0 +1,45 @@
+21:47:46.355 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://super-scheduler-app.herokuapp.com:80
+21:47:46.461 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to super-scheduler-app.herokuapp.com:80
+21:47:46.654 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+21:47:46.658 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+21:47:46.659 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+21:47:46.660 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+21:47:46.661 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+21:47:46.662 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Sending request: POST /api/login HTTP/1.1
+21:47:46.663 [main] DEBUG org.apache.http.wire -  >> "POST /api/login HTTP/1.1[\r][\n]"
+21:47:46.665 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+21:47:46.665 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+21:47:46.665 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 58[\r][\n]"
+21:47:46.665 [main] DEBUG org.apache.http.wire -  >> "Host: super-scheduler-app.herokuapp.com[\r][\n]"
+21:47:46.666 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+21:47:46.666 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+21:47:46.666 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:47:46.666 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+21:47:46.666 [main] DEBUG org.apache.http.headers - >> POST /api/login HTTP/1.1
+21:47:46.667 [main] DEBUG org.apache.http.headers - >> Accept: */*
+21:47:46.668 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+21:47:46.668 [main] DEBUG org.apache.http.headers - >> Content-Length: 58
+21:47:46.669 [main] DEBUG org.apache.http.headers - >> Host: super-scheduler-app.herokuapp.com
+21:47:46.669 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+21:47:46.669 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+21:47:46.669 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+21:47:46.670 [main] DEBUG org.apache.http.wire -  >> "{"email" : "elena28+4@gmail.com", "password": "Aa1234567"}"
+21:47:46.847 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+21:47:46.851 [main] DEBUG org.apache.http.wire -  << "Server: Cowboy[\r][\n]"
+21:47:46.851 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+21:47:46.852 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+21:47:46.852 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+21:47:46.852 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 31 Aug 2021 18:47:47 GMT[\r][\n]"
+21:47:46.852 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+21:47:46.852 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+21:47:46.854 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+21:47:46.854 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+21:47:46.854 [main] DEBUG org.apache.http.headers - << Server: Cowboy
+21:47:46.854 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+21:47:46.854 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+21:47:46.854 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+21:47:46.855 [main] DEBUG org.apache.http.headers - << Date: Tue, 31 Aug 2021 18:47:47 GMT
+21:47:46.855 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+21:47:46.867 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+21:47:46.937 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+21:47:46.938 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream

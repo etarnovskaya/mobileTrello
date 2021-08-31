@@ -1,0 +1,52 @@
+21:21:29.415 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://super-scheduler-app.herokuapp.com:80
+21:21:29.560 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to super-scheduler-app.herokuapp.com:80
+21:21:29.766 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+21:21:29.771 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+21:21:29.771 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+21:21:29.773 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+21:21:29.775 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+21:21:29.776 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Sending request: POST /api/login HTTP/1.1
+21:21:29.777 [main] DEBUG org.apache.http.wire -  >> "POST /api/login HTTP/1.1[\r][\n]"
+21:21:29.780 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+21:21:29.780 [main] DEBUG org.apache.http.wire -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+21:21:29.780 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 58[\r][\n]"
+21:21:29.781 [main] DEBUG org.apache.http.wire -  >> "Host: super-scheduler-app.herokuapp.com[\r][\n]"
+21:21:29.781 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+21:21:29.781 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)[\r][\n]"
+21:21:29.781 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:21:29.782 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+21:21:29.782 [main] DEBUG org.apache.http.headers - >> POST /api/login HTTP/1.1
+21:21:29.782 [main] DEBUG org.apache.http.headers - >> Accept: */*
+21:21:29.782 [main] DEBUG org.apache.http.headers - >> Content-Type: text/plain; charset=ISO-8859-1
+21:21:29.782 [main] DEBUG org.apache.http.headers - >> Content-Length: 58
+21:21:29.782 [main] DEBUG org.apache.http.headers - >> Host: super-scheduler-app.herokuapp.com
+21:21:29.783 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+21:21:29.783 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_271)
+21:21:29.783 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+21:21:29.786 [main] DEBUG org.apache.http.wire -  >> "{"email" : "elena28+2@gmail.com", "password": "Aa1234567"}"
+21:21:29.947 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 [\r][\n]"
+21:21:29.950 [main] DEBUG org.apache.http.wire -  << "Server: Cowboy[\r][\n]"
+21:21:29.950 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+21:21:29.951 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+21:21:29.951 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+21:21:29.951 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 31 Aug 2021 18:21:30 GMT[\r][\n]"
+21:21:29.951 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+21:21:29.952 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+21:21:29.954 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Receiving response: HTTP/1.1 500 
+21:21:29.954 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Server: Cowboy
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Date: Tue, 31 Aug 2021 18:21:30 GMT
+21:21:29.955 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+21:21:29.966 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+21:21:30.028 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+21:21:30.029 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:21:30.105 [main] DEBUG org.apache.http.wire -  << "99[\r][\n]"
+21:21:30.106 [main] DEBUG org.apache.http.wire -  << "{"message":"Content type 'text/plain;charset=ISO-8859-1' not supported","details":"uri=/api/login","code":500,"timestamp":"2021-08-31T18:21:30.700+0000"}"
+21:21:30.109 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+21:21:30.110 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+21:21:30.111 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+21:21:30.111 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@9cd25ff
+21:21:30.112 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Connection can be kept alive indefinitely

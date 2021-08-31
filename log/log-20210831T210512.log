@@ -1,0 +1,7 @@
+21:05:21.379 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://localhost:8080
+21:05:21.482 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+21:05:23.734 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+21:05:23.735 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+21:05:25.779 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@5db4c359 closed
+21:05:25.781 [main] DEBUG o.a.h.i.c.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@5db4c359 shut down
+21:05:25.782 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@209775a9
